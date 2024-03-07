@@ -5,5 +5,7 @@
 
 ![alt text](https://github.com/AbhayChowdhry/Image-Segmentation-on-Indian-Driving-Dataset-using-pytorch-/blob/main/media/img_label.png)
 
+
+A color mapping transformation is required since the color map used for IDD is different from Cityscape (on which Deeplabv3plus is trained), the transformation makes the output colors from the cityscape prediction, match those in IDD.
 ![alt text](https://github.com/AbhayChowdhry/Image-Segmentation-on-Indian-Driving-Dataset-using-pytorch-/blob/main/media/pred.png)
 
