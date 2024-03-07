@@ -3,6 +3,7 @@
 - Predicted image segmentation masks Using [Pretrained DeepLabV3Plus-Pytorch](https://github.com/VainF/DeepLabV3Plus-Pytorch/tree/master) for [Indian Driving Dataset](https://idd.insaan.iiit.ac.in/)
 - Compared predicted masks and true masks using various segmentation metrics such as IoU, Pixelwise Accuracy, Dice Score and finally calculating Recall and precision
 
+The following show a few examples of given input images and their respective true maks (which have been color coded according to provided maps in their documentation)
 ![alt text](https://github.com/AbhayChowdhry/Image-Segmentation-on-Indian-Driving-Dataset-using-pytorch-/blob/main/media/img_label.png)
 
 
